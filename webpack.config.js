@@ -1,7 +1,6 @@
 'use strict';
 
 var StaticSiteGeneratorPlugin = require('static-site-generator-webpack-plugin');
-var data = require('./init-data');
 var webpack = require('webpack');
 
 module.exports = {
