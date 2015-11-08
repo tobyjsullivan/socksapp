@@ -15,7 +15,7 @@ var Root = React.createClass({
           <RouteHandler {...this.props} />
         </body>
       </html>
-    )
+    );
   }
 });
 

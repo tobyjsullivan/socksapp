@@ -1,14 +1,15 @@
 'use strict';
 
 var React = require('react');
+var ConversationText = require('./ConversationText.jsx');
 
 var Index = React.createClass({
   render: function () {
     return (
       <main>
-        Welcome to Socks.
+        <ConversationText content="Welcome to Socks." />
       </main>
-    )
+    );
   }
 });
 
