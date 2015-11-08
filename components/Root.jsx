@@ -1,6 +1,8 @@
-var React = require('react')
-var Router = require('react-router')
-var RouteHandler = Router.RouteHandler
+'use strict';
+
+var React = require('react');
+var Router = require('react-router');
+var RouteHandler = Router.RouteHandler;
 
 var Root = React.createClass({
   render: function () {
@@ -15,6 +17,6 @@ var Root = React.createClass({
       </html>
     )
   }
-})
+});
 
-module.exports = Root
+module.exports = Root;

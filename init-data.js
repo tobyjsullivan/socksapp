@@ -1,6 +1,8 @@
+'use strict';
+
 module.exports = {
-  title: 'Socksapp.com',
+  title: 'Socks',
   routes: [
     '/'
   ]
-}
+};

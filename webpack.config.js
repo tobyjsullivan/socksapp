@@ -1,5 +1,7 @@
-var StaticSiteGeneratorPlugin = require('static-site-generator-webpack-plugin')
-var data = require('./init-data')
+'use strict';
+
+var StaticSiteGeneratorPlugin = require('static-site-generator-webpack-plugin');
+var data = require('./init-data');
 
 module.exports = {
   entry: './entry.js',
@@ -19,4 +21,4 @@ module.exports = {
   plugins: [
     new StaticSiteGeneratorPlugin('bundle.js', data.routes, data)
   ]
-}
+};
